@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =============navbar========== */
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1.5rem;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.menubar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-item ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.manu-icon{
+   
+    display: flex;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 1rem 1.6rem;
+align-items: center;
+justify-content: center;
+}
+/* .manu-icon .fa{
+    margin-right: rem;
+} */
+.manu-icon > .fa{
+    margin-left: 1rem;
+}
+#youtube{
+    color: red;
+}
+.menu-item ul li {
+    list-style: none;
+    margin-right: 2rem;
+    
+    
+}
+.menu-item ul li a,.manu-icon p{
+    text-decoration: none;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-icon h2{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 1rem;
+}
+.nav-icon span{
+    color: #FF42A5;
+}
+.nav-icon img{
+    width: 86.041px;
+height: 40px;
+}
+/* ==============Banner=============== */
+.banner{
+display: flex;
+align-items: center;
+justify-content: space-around;
+/* background-color:rgba(140, 87, 238, 0.03)  ; */
+
+}
+.banner-heading{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+}
+.banner-icons{
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: .8rem;
+}
+.banner-icons .fa{
+    margin-right: .8rem;
+}
+.banner-icons p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+text-transform: lowercase;
+}
+
+
+/* ////////////////////////////Resposive////////////////////////// */
+
+/* $$$$$$$$$$------Mobile View---------$$$$$$$$$$$$$*/
+
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        box-shadow: none;
+        justify-content: center;
+        padding: 0rem;
+    }
+.menubar{
+    flex-direction: column;
+}
+.menubar ul{
+    flex-direction: column;
+
+}
+.menubar ul li{
+    margin-top: 1.5rem;
+}
+.menubar ul li:last-child{
+    margin-bottom: 1.5rem;
+}
+
+.banner{
+    flex-direction: column-reverse;
+    
+}
+.banner img{
+    width: 100%;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCF6FC;
+    margin-top: 3rem;
+   width: 70%;
+   padding: 1rem;
+}
+.banner-heading{
+    font-size: 42px;
+}
+.banner-title{
+    font-size: 85px;
+}
+.banner-icons p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/* %%%%%%%%%%%%%%%%%%----Tablet View-----------%%%%%%%%%%%%% */
+
+@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+        box-shadow: none;
+        justify-content: center;
+        padding: 0rem;
+    }
+.menubar{
+    flex-direction: column;
+}
+.menubar ul{
+    flex-direction: column;
+
+}
+.menubar ul li{
+    margin-top: 1.5rem;
+}
+.menubar ul li:last-child{
+    margin-bottom: 1.5rem;
+}
+
+.banner{
+    flex-direction: column-reverse;
+    
+}
+.banner img{
+    width: 100%;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCF6FC;
+    margin-top: 3rem;
+   width: 70%;
+   padding: 2rem;
+}
+.banner-heading{
+    font-size: 38px;
+}
+.banner-title{
+    font-size: 75px;
+}
+.banner-icons p{
+    font-size: 16px;
+}
+.banner-icons{
+   
+}
+
+
+
+
+
+
+
+
+
+}
