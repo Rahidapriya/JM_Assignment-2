@@ -127,8 +127,101 @@ font-style: normal;
 font-weight: 500;
 text-transform: lowercase;
 }
+.banner-btn{
+    margin-top: 2rem;
+}
+.btn-primary{
+padding: 20px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+border: none;
+
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.btn-blue{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
+/* ============----online games---============== */
+.online-games{
+    margin-top: 9rem;
+}
+.image-grid{
+    margin: 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    /* gap: 10px; */
+  
+}
+.grid img{
+    width: 100%;
+}
+.grid{
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.title{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.title-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+
+}
+.title-desp{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.image-grid-desp{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+
+.image-grid img:hover{
+background-color: #3C354F;
+}
 /* ////////////////////////////Resposive////////////////////////// */
 
 /* $$$$$$$$$$------Mobile View---------$$$$$$$$$$$$$*/
@@ -139,6 +232,7 @@ text-transform: lowercase;
         box-shadow: none;
         justify-content: center;
         padding: 0rem;
+        margin-top: 2rem;
     }
 .menubar{
     flex-direction: column;
@@ -171,17 +265,22 @@ text-transform: lowercase;
    padding: 1rem;
 }
 .banner-heading{
-    font-size: 42px;
+    font-size: 35px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 55px;
 }
 .banner-icons p{
     font-size: 16px;
 }
 
 
-
+.btn-primary{
+    padding: 14px 20px;
+}
+.btn-blue{
+    padding: 14px 20px;
+}
 
 
 
@@ -193,12 +292,13 @@ text-transform: lowercase;
 
 /* %%%%%%%%%%%%%%%%%%----Tablet View-----------%%%%%%%%%%%%% */
 
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:1200px){
     nav{
         flex-direction: column;
         box-shadow: none;
         justify-content: center;
         padding: 0rem;
+        margin-top: 2rem;
     }
 .menubar{
     flex-direction: column;
@@ -231,17 +331,16 @@ text-transform: lowercase;
    padding: 2rem;
 }
 .banner-heading{
-    font-size: 38px;
+    font-size: 48px;
 }
 .banner-title{
-    font-size: 75px;
+    font-size: 95px;
 }
 .banner-icons p{
-    font-size: 16px;
+    font-size: 20px;
 }
-.banner-icons{
-   
-}
+
+
 
 
 
