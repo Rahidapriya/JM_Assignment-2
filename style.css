@@ -581,8 +581,9 @@ line-height: normal;
 }
 /* icons */
 .icons-section{
-    margin: 100px 0px;
-    gap: 2px;
+    margin: 100px 0 0 0;
+    gap: 1px;
+    padding: 0;
 }
 .icon-flex{
     display: flex;
@@ -591,7 +592,7 @@ line-height: normal;
    gap:0px;
    border:2px solid transparent;
    border-radius: 50px;
-   padding: .1rem .5rem;
+   padding: .1rem .1rem;
    cursor: pointer;
    
 }
@@ -610,7 +611,7 @@ line-height: normal;
 
 .icon-det{
    
-font-size: 7px;
+font-size: 8px;
 }
 .icon-flex:hover{
  
