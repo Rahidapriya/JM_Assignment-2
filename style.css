@@ -5,9 +5,10 @@
 /* =============navbar========== */
 nav{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    
     align-items: center;
-    padding: 1.5rem;
+    padding: 1.5rem 9rem;
     background-color:#fff;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
@@ -365,9 +366,9 @@ color: #FF42A5 ;
 /* ==================icon section================ */
 .icons-section{
     margin: 200px 0 0 0;
-    padding: 80px;
+    padding: 80px 40px;
     display: flex;
-    gap:30px;
+    gap:20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -672,11 +673,164 @@ font-size: 8px;
     margin: 100px 5px;
 }
 }
+/* footer */
+.footer-icons{
+    padding: 0rem 5rem;
+}
+.footer-icons .fa{
+    margin-right: 1rem;
+    margin-bottom:1rem ;
+}
+
+
 
 
 /* %%%%%%%%%%%%%%%%%%----Tablet View-----------%%%%%%%%%%%%% */
 
-@media screen and (min-width:576px) and (max-width:1200px){
+@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+        box-shadow: none;
+        justify-content: center;
+        padding: 0rem;
+        margin-top: 2rem;
+    }
+.menubar{
+    flex-direction: column;
+}
+.menubar ul{
+    flex-direction: column;
+
+}
+.menubar ul li{
+    margin-top: 1.5rem;
+}
+.menubar ul li:last-child{
+    margin-bottom: 1.5rem;
+}
+
+.banner{
+    flex-direction: column-reverse;
+    background-image: none;
+    
+}
+.banner img{
+    width: 100%;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #FCF6FC; */
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+   width: 70%;
+   padding: 2rem;
+}
+.banner-heading{
+    font-size: 48px;
+}
+.banner-title{
+    font-size: 95px;
+}
+.banner-icons p{
+    font-size: 20px;
+}
+
+
+/* we are gamer */
+.we-are-gamer{
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.we-are-gamer img{
+    width: 100%;
+}
+.gamer-purpose {
+    text-align: center;
+}
+
+
+
+
+/* online games */
+.grid{
+    grid-template-columns: repeat(2,1fr);
+    margin: 15px 30px;
+   
+}
+.title{
+    font-size: 29px;
+}
+.title-span{
+    font-size: 29px;
+}
+.title-desp{
+    margin: 10px 30px;
+    font-size: 14px;
+}
+.dg-container{
+    width: 100%;
+}
+.dg-container img{
+    width: 100%;
+}
+.hover-bg{
+    width: 100%;
+}
+.image-grid-desp{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* play instat */
+.play-instant{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.play-instat-left{
+    margin: 10% 15%;
+}
+
+.play-instant-imgback {
+    width: 70%;
+    margin: 0 auto;
+}
+.play-instant-overlap{
+    width: 50%;
+    position: absolute;
+    margin-top: -9.5rem;
+    margin-left: -6rem;
+}
+.title-extra{
+    text-align: center;
+}
+.play-instat-left{
+    padding: 0;
+}
+.play-instant-imgback img{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px){
     nav{
         flex-direction: column;
         box-shadow: none;
