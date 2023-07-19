@@ -548,6 +548,7 @@ line-height: normal;
 .btn-blue{
     padding: 14px 20px;
 }
+
 /* we are gamer */
 .we-are-gamer{
     flex-direction: column;
@@ -754,7 +755,9 @@ font-size: 8px;
     text-align: center;
 }
 
-
+.banner-btn{
+    margin-bottom: 40px;
+}
 
 
 /* online games */
