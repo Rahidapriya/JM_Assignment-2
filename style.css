@@ -85,6 +85,10 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 /* background-color:rgba(140, 87, 238, 0.03)  ; */
+background-image: url(images/Group\ 14.png);
+background-repeat: no-repeat;
+background-size: contain;
+
 
 }
 .banner-heading{
@@ -164,12 +168,19 @@ text-transform: uppercase;
 .banner-left{
     display: flex;
     flex-direction: column;
+
     align-items: center;
+  
+}
+.banner img{
+    width: 40%;
 }
 
 
+
+
 /* ============----online games---============== */
-.online-games{
+/* .online-games{
     margin-top: 9rem;
 }
 .image-grid{
@@ -181,7 +192,9 @@ text-transform: uppercase;
   
 }
 .grid img{
-    width: 100%;
+    width: 420px;
+    height: 320px;
+    
 }
 .grid{
     padding: 20px;
@@ -221,9 +234,137 @@ font-weight: 500;
 line-height: 30px; /* 150% */
 }
 
-.image-grid img:hover{
+/* +=hover */
+/* .dg-grid{
+    position: relative;
+}
+.hover-bg{
+    background-image: linear-gradient( rgb(211, 197, 197,0.0), rgb(212, 24, 24,0.0));
+    width:50%;
+    height:12%;
+    z-index: 1;
+} 
+.hover-info{
+    opacity: 0;
+    margin-top: -300px;
+ 
+    
+
+.hover-bg{
+
+    background-image: linear-gradient( rgb(211, 197, 197,0.0), rgb(212, 24, 24,0.0));
+    width:50%;
+    height:12%;
+    transform: translate(0px,-76%); 
+   
+ } 
+.dg-grid:hover .hover-bg{
+    background-image: linear-gradient( rgb(51, 51, 51,0.5),rgb(51, 51, 51,0.5));
+    border-radius: 10px;
+    transition: 0.5s ease in ease-in-out;}
+    
+
+
+.hover-info{
+    padding-top: 40px;
+    width: 380px;
+    height:290px;
+    text-align: center;
+    opacity:0;
+    font-size: 18px;
+    font-weight: 300px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.dg-grid:hover .hover-info{  
+    opacity:1;
+    transform:translateY(-10px);
+    transition: transform 0.3s ;
+}  */
+
+
+
+
+/* new hover */
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+ align-items: center;
+ justify-content: center;
+    column-gap:4%;
+    margin:25px; 
+    /* margin-left: 80px; */
+    /* row-gap: 80px; */
+   
+}
+.dg-container{
+  
+    width: 100%;
+    height: 360px; 
+    /* box-shadow: 0px 7px 10px rgba(0,0,0,0.5);   */
+    margin-bottom: 20px;
+  
+}
+.dg-container img{
+    width: 100%;
+    height:360px;
+    opacity: 1;
+    
+}
+.hover-bg{
+
+    background-image: linear-gradient( rgb(211, 197, 197,0.0), rgb(212, 24, 24,0.0));
+    border-radius: 10px;
+    width: 100%;
+    height:360px;
+    transform: translate(0px,-364px); 
+   
+}
+.dg-container:hover .hover-bg{
+    background-image: linear-gradient( rgb(51, 51, 51,0.5),rgb(51, 51, 51,0.5));
+    transition: 0.5s ease in ease-in-out;
+    /* rgb(211, 197, 197,0.5) */
 
 }
+
+.hover-info{
+    padding-top: 40px;
+    width: 240px;
+  margin: 0 auto;
+    text-align: center;
+    opacity:0;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #fff;
+   
+    /* margin-left: 15px; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.hover-info .fa{
+    margin-bottom: 6%;
+    margin-top: 50%;
+    font-size: 40px;
+}
+.hover-info h5{
+    text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+color: #FF42A5 ;
+
+
+}
+
+.dg-container:hover .hover-info{  
+    opacity:1;
+    transform:translateY(-30px);
+    transition: transform 0.3s ;
+}
+
+
 /* play instant */
 .play-instant{
     display: flex;
@@ -396,6 +537,7 @@ line-height: normal;
 .banner{
     margin: 20px 30px;
     flex-direction: column-reverse;
+    background-image: none;
     
 }
 .banner img{
@@ -404,8 +546,11 @@ line-height: normal;
 .banner-left{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #FCF6FC;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 3rem;
    width: 90%;
    padding: 1rem;
@@ -431,7 +576,7 @@ line-height: normal;
 /* online games */
 
 
-.image-grid{
+.grid{
     grid-template-columns: repeat(1,1fr);
     margin: 15px 30px;
    
@@ -446,10 +591,20 @@ line-height: normal;
     margin: 10px 30px;
     font-size: 14px;
 }
+.dg-container{
+    width: 100%;
+}
+.dg-container img{
+    width: 100%;
+}
+.hover-bg{
+    width: 100%;
+}
 
 .image-grid-desp{
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* play instat */
@@ -557,6 +712,7 @@ font-size: 7px;
 
 .banner{
     flex-direction: column-reverse;
+    background-image: none;
     
 }
 .banner img{
@@ -566,7 +722,10 @@ font-size: 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FCF6FC;
+    /* background-color: #FCF6FC; */
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 3rem;
    width: 70%;
    padding: 2rem;
@@ -582,8 +741,33 @@ font-size: 7px;
 }
 
 /* online games */
-.image-grid{
+.grid{
     grid-template-columns: repeat(2,1fr);
+    margin: 15px 30px;
+   
+}
+.title{
+    font-size: 29px;
+}
+.title-span{
+    font-size: 29px;
+}
+.title-desp{
+    margin: 10px 30px;
+    font-size: 14px;
+}
+.dg-container{
+    width: 100%;
+}
+.dg-container img{
+    width: 100%;
+}
+.hover-bg{
+    width: 100%;
+}
+.image-grid-desp{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
