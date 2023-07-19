@@ -176,7 +176,41 @@ text-transform: uppercase;
     width: 40%;
 }
 
+/* =====================we are gamer============= */
+.we-are-gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 5rem 7rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+    margin-bottom: 5rem;
+    
+}
+.gamer-purpose{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+margin-top: 5px;
+}
+.span-splash{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
 
+}
+.btn{
+    margin-top: 10px;
+}
+.gamer-extra{
+    margin-bottom: 15px;
+}
 
 
 /* ============----online games---============== */
@@ -513,7 +547,19 @@ line-height: normal;
 .btn-blue{
     padding: 14px 20px;
 }
-
+/* we are gamer */
+.we-are-gamer{
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin-top: 5rem;
+}
+.we-are-gamer img{
+    width: 100%;
+}
+.gamer-purpose {
+    text-align: center;
+}
 /* online games */
 
 
@@ -681,6 +727,24 @@ font-size: 8px;
 .banner-icons p{
     font-size: 20px;
 }
+
+
+/* we are gamer */
+.we-are-gamer{
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.we-are-gamer img{
+    width: 100%;
+}
+.gamer-purpose {
+    text-align: center;
+}
+
+
+
 
 /* online games */
 .grid{
