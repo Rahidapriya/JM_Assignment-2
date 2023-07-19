@@ -36,13 +36,13 @@ justify-content: center;
 /* .manu-icon .fa{
     margin-right: rem;
 } */
-.manu-icon > .fa{
+.manu-icon > svg{
     margin-left: 1rem;
 }
-#youtube{
+.manu-icon svg{
     color: red;
     margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 .menu-item ul li {
     list-style: none;
